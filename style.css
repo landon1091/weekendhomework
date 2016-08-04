@@ -13,3 +13,10 @@ header {
     height: 150px;
     padding-left: 5%;
 }
+.top {
+    display: flex;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("assets/perforated-bottom@2x.png") 11 round;
+    border-top: none;
+}
