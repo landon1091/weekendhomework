@@ -1,22 +1,35 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 header {
-    display: inline-block;
+    display: flex;
     background-color: #FA6938;
-    width: 100%;
-    height: 100%;
-    padding-left: 5%;
-    box-sizing: border-box;
+    padding: .7% 0% .7% 5%;
 }
 .headertext {
+    margin: 0%;
+    font-size: 15px;
     display: inline-block;
+    padding-left: 3%;
+    color: white;
 }
-#logo {
-    height: 150px;
-    padding-left: 5%;
+#freeshipping {
+    padding: 3px 6px 3px 6px;
+    background-color: #CA664A;
+    margin: 0%;
+    color: white;
+}
+#logo1 {
+    height: 100px;
 }
 .top {
+    padding: 0% 0% 0% 5%;
     display: flex;
+    align-items: center;  
     border: 10px solid transparent;
-    padding: 15px;
     border-image: url("assets/perforated-bottom@2x.png") 11 round;
     border-top: none;
+}
+.toptext {
+    padding-left: 5%;
 }
