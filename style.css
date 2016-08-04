@@ -14,8 +14,9 @@ header {
     color: white;
 }
 #freeshipping {
+    border-radius: 4px;
     padding: 3px 6px 3px 6px;
-    background-color: #CA664A;
+    background-color: #C7532C;
     margin: 0%;
     color: white;
 }
@@ -23,13 +24,52 @@ header {
     height: 100px;
 }
 .top {
+    position: relative;
     padding: 0% 0% 0% 5%;
     display: flex;
     align-items: center;  
     border: 10px solid transparent;
     border-image: url("assets/perforated-bottom@2x.png") 11 round;
     border-top: none;
+    font-size: 20px;
+    font-weight: lighter;
 }
 .toptext {
     padding-left: 5%;
+}
+.signin {
+    display: flex;
+    justify-content: flex-end;
+}
+.signinregister {
+    
+    font-size: 15px;
+    font-weight: lighter;
+    display: flex;
+    color: #919191;
+}
+#headerregister {
+    position: relative; 
+    bottom: 30px;
+    left: 500px;
+}
+#headersignin {
+    position: relative; 
+    bottom: 30px;
+    left: 475px;
+}
+.cart {
+    position: relative;
+    left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #919191;
+    border-radius: 4px;
+    height: 25px;
+    width: 100px;
+}
+#headercart {
+    height: 20px;
+    width: 20px;
 }
