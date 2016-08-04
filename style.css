@@ -1,0 +1,15 @@
+header {
+    display: inline-block;
+    background-color: #FA6938;
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+.headertext {
+    display: inline-block;
+}
+#logo {
+    height: 150px;
+    padding-left: 5%;
+}
