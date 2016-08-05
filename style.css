@@ -3,6 +3,7 @@ body {
 }
 header {
     display: flex;
+    align-items: center;
     background-color: #FA6938;
     padding: .7% 0% .7% 5%;
 }
@@ -42,7 +43,6 @@ header {
     justify-content: flex-end;
 }
 .signinregister {
-    
     font-size: 15px;
     font-weight: lighter;
     display: flex;
@@ -50,12 +50,12 @@ header {
 }
 #headerregister {
     position: relative; 
-    bottom: 30px;
-    left: 500px;
+    bottom: 35px;
+    left: 495px;
 }
 #headersignin {
     position: relative; 
-    bottom: 30px;
+    bottom: 35px;
     left: 475px;
 }
 .cart {
@@ -63,13 +63,39 @@ header {
     left: 230px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border: 1px solid #919191;
     border-radius: 4px;
     height: 25px;
     width: 100px;
 }
+.searchbar {
+     position: relative;
+    left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #919191;
+    border-radius: 4px;
+    height: 25px;
+    width: 165px;
+
+}
+.cart, p {
+    position: relative;
+    right: 12px;
+}
 #headercart {
+    position: relative;
+    right: 5px;
     height: 20px;
     width: 20px;
+}
+#headsearch {
+    position: relative;
+    right: 65px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 20px; 
 }
