@@ -163,8 +163,9 @@ h3 {
     top: 50px;
 }
 .middlesection2 {
+    padding: 3% 5% 5% 5%;
     text-align: center;
-}
+    }
 .middleheader {
     font-size: 2em;
     font-family: 'Simonetta', cursive;
@@ -178,4 +179,81 @@ h5 {
 }
 #bluetext {
     color: #33A1FF;
+}
+#imgbottom1 {
+    height: 175px;
+    width: 250px;
+}
+#pbottom1 {
+    color: #33A1FF;
+    margin: 0px;
+    font-size: 1.1em;
+    
+}
+.bottom1 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px; 
+    height: 350px;
+}
+.bottom2 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 250px; 
+    height: 350px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid transparent;
+    border-image: url("assets/perforated-bottom@2x.png") 11 round;
+    border-top: none;
+    
+    
+
+}
+.socialimg {
+    width: 50px;
+    height: 50px;
+}
+.socialicons {
+    display: inline-flex;
+
+}
+.bottom3 {
+    /*display: inline-flex;*/
+    /*flex-direction: column;*/
+    width: 250px; 
+    height: 350px;
+
+}
+#bluebutton {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    right: 10px;
+    color: white;
+    background-color: #33A1FF;
+    border-radius: 4px;
+    padding: 5px 2px 5px 2px;
+}
+#imgbottom2 {
+    height: 175px;
+    width: 250px;
+
+}
+.blue {
+    color: #33A1FF;
+}
+.bottom4 {
+    display: inline-block;
+    width: 250px; 
+    height: 350px;
+
+}
+input {
+    height: 25px;
+    width: 200px;
+    border: 3px solid #F4F4F4;
+    border-radius: 4px; 
 }
