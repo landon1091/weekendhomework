@@ -165,6 +165,10 @@ h3 {
 .middlesection2 {
     padding: 3% 5% 5% 5%;
     text-align: center;
+    border: 10px solid transparent;
+   border-image: url(assets/hatch-light@2x.png);
+   border-image-slice: 0 0 14 0;
+   border-image-repeat: repeat;
     }
 .middleheader {
     font-size: 2em;
@@ -207,7 +211,7 @@ h5 {
     justify-content: space-around;
     border: 10px solid transparent;
     border-image: url("assets/perforated-bottom@2x.png") 11 round;
-    border-top: none;
+  border-top: none;
     
     
 
