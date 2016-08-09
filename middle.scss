@@ -1,0 +1,59 @@
+#bowtie {
+    height: 200px;
+    width: 350px;
+}
+.middlesection {
+    display: flex;
+    justify-content: space-around;
+}
+.whitebars {
+    display: flex;
+}
+.imgp {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#img1 {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+#img2 {
+    position: relative;
+    left: 700px;
+    top: 50px;
+}
+#img3 {
+    position: relative;
+    left: 615px;
+    top: 75px;
+}
+#img4 {
+    position: relative;
+    left: 1020px;
+    top: 50px;
+}
+.middlesection2 {
+    padding: 3% 5% 5% 5%;
+    text-align: center;
+    border: 10px solid transparent;
+   border-image: url(assets/hatch-light@2x.png);
+   border-image-slice: 0 0 14 0;
+   border-image-repeat: repeat;
+
+        p {
+             color: #33A1FF;
+        }
+    }
+.middleheader {
+    font-size: 2em;
+    font-family: 'Simonetta', cursive;
+    font-weight: lighter;
+}
+h4 {
+    margin-bottom: 0px;
+}
+h5 {
+    margin: 0px;
+}
